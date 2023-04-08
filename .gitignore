@@ -1,2 +1,8 @@
-# ignore all compilation file types
+# ignore all
+*
+# unignore files with the file type
+!*.*
+# unignore directories
+!*/
+# ignore .o
 *.o
